@@ -1,115 +1,143 @@
 [[LibModbus]]
 arch = "aarch64"
-git-tree-sha1 = "0ccc1080eb777e0a660bf65b6a7b905b2b8aa5f4"
-libc = "glibc"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "a0c221d6e7845a25a1f7dda52c945245fe9bc47537af4238d7410dcd68a74a75"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.aarch64-linux-gnu.tar.gz"
-[[LibModbus]]
-arch = "aarch64"
-git-tree-sha1 = "bcc4dbef8727f02f5a2997a44ec1c5975f37e70a"
-libc = "musl"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "a1ec6151f39a51eb15ef93d29d10a2d24bd1beb05c2a7df3d6bcfdbf26afe9bd"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.aarch64-linux-musl.tar.gz"
-[[LibModbus]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "f6ed374865cb71e45ae54f292e34bed3728c5123"
-libc = "glibc"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "25c484f5253f0dda823d50e32257ba466adc3b3db3eeb9c1042eb67d64f9f974"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[LibModbus]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "ad150ff21da31321bf26ad8907d9158d8cc682e1"
-libc = "musl"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "214a419f7ce3b50800b898857ac7015a291a59098562cea211ae2051daa08754"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.armv7l-linux-musleabihf.tar.gz"
-[[LibModbus]]
-arch = "i686"
-git-tree-sha1 = "ece3532da9c3b3f4b0f0d1bfcdd7356e7372f761"
-libc = "glibc"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "6f12a840f4415d71a12545d9060972208fe1a2e22ab8c91025af8d4d31fb1ecc"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.i686-linux-gnu.tar.gz"
-[[LibModbus]]
-arch = "i686"
-git-tree-sha1 = "b82ff971792aa9b238e12f467ca9c1517f64873b"
-libc = "musl"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "a9e56659c9f7b0ff3103e61500da14d93f9968a0bf05b4e20a5637d911f01128"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.i686-linux-musl.tar.gz"
-[[LibModbus]]
-arch = "i686"
-git-tree-sha1 = "79bad3e41e8a6383ca1decbe51849533c975c893"
-os = "windows"
-
-    [[LibModbus.download]]
-    sha256 = "7d7a3d6b8fb30c407ed9028f86406c7cbdb7220be14140ce967822c4d20316b3"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.i686-w64-mingw32.tar.gz"
-[[LibModbus]]
-arch = "powerpc64le"
-git-tree-sha1 = "e294f2ee0a643346783c84791f138b37562038e2"
-libc = "glibc"
-os = "linux"
-
-    [[LibModbus.download]]
-    sha256 = "d46d2fdcbd48ad1b926915483aadf8220aa90cb7a4a18ff5e879f33b6587d54c"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.powerpc64le-linux-gnu.tar.gz"
-[[LibModbus]]
-arch = "x86_64"
-git-tree-sha1 = "9f18f389d3eb2d477be0279990bf9a24c0211e28"
+git-tree-sha1 = "ff3f69130519ea568d17736cf2ed1d0856d1447e"
 os = "macos"
 
     [[LibModbus.download]]
-    sha256 = "b5351196366ecbd3739af59bad3757c8ed5221c0212a036e9a2bf088df3c5d23"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "9417b262983e1f29cf58460930b30556d9408e62da10dea49a7f3921b8f7a5ae"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.aarch64-apple-darwin.tar.gz"
 [[LibModbus]]
-arch = "x86_64"
-git-tree-sha1 = "e0bebfed4bc80215e6e91a97bd49aa703967657e"
+arch = "aarch64"
+git-tree-sha1 = "55c80c6bb10907cca58862fe1cb2b6295d9570cb"
 libc = "glibc"
 os = "linux"
 
     [[LibModbus.download]]
-    sha256 = "af92f220cc049918cb0837f35c5e7f2f61b390f619c4cdc26ac17e4be18f09eb"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "7b242df1a114b0463b2adbf5d7743d8f265254b793100d3132ae53311e4e61ea"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.aarch64-linux-gnu.tar.gz"
 [[LibModbus]]
-arch = "x86_64"
-git-tree-sha1 = "403c0f03aa9ec29366a20b9e64d07f35d364df32"
+arch = "aarch64"
+git-tree-sha1 = "dbdcea8eb6968bd2a4e88373a609276df9af11a8"
 libc = "musl"
 os = "linux"
 
     [[LibModbus.download]]
-    sha256 = "498c2feac4835aecdf2cd52148ba38d928a331e1fe83bb0294d34cff0a193b63"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "8060a319a4d71a84eaf8a8c1cb735ed6cacc6a74402ff29e4450d03c9f5d3620"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.aarch64-linux-musl.tar.gz"
 [[LibModbus]]
-arch = "x86_64"
-git-tree-sha1 = "8485c5aa18df6b1dafb6b60925805830360cb4d5"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "397803edd67ba4c70a4f9a41de8a45e058c9d9e3"
+libc = "glibc"
+os = "linux"
 
     [[LibModbus.download]]
-    sha256 = "ea7112c896688982c0477a1c48f021bd90a12b6a5897cf5722b939b2ecc93749"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "1bd3567d927f36cbbde80ee0af185e112cf4f4fd7eb30827fac718cae70b14bf"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.armv6l-linux-gnueabihf.tar.gz"
 [[LibModbus]]
-arch = "x86_64"
-git-tree-sha1 = "e6b580314149fce13172f300f87fdd4c58fe79d7"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0a92d870378b0e472f72ec66e5a6b1f6fa81f632"
+libc = "musl"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "e3d9f8463ce2a3d8eea487ea8d379fa479908b45465d7e697ae82563654cc3b8"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.armv6l-linux-musleabihf.tar.gz"
+[[LibModbus]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ef626567bfdbbba71a965e3df4f9624c0910db08"
+libc = "glibc"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "ed662392306696f224c8f72b6221357cfef86cb95a6223b7c1a422bedc8d5b39"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.armv7l-linux-gnueabihf.tar.gz"
+[[LibModbus]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5f3fab0cfdd9f834ab27ab5770db91928ab23104"
+libc = "musl"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "96e64302f6de3fd924f4ddccf378dbdd35559a8d168ea10c4db7f4b72ace70d2"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.armv7l-linux-musleabihf.tar.gz"
+[[LibModbus]]
+arch = "i686"
+git-tree-sha1 = "2925659aa1862f8ae6db615e7edc005420c4dd54"
+libc = "glibc"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "5e5b74673438c09808a6bcb7880a4653870073ca551bbae51d97cb560bdc8195"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.i686-linux-gnu.tar.gz"
+[[LibModbus]]
+arch = "i686"
+git-tree-sha1 = "0e34d8fcf0ce52d3f0468c79921558fe177faf93"
+libc = "musl"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "072fbd0e8feb4e940f39f513a3f868d03be2ac3950352406dc94c9b9f01bdcdc"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.i686-linux-musl.tar.gz"
+[[LibModbus]]
+arch = "i686"
+git-tree-sha1 = "7d72d928c2cd699b93c6e82703ffb6fca0ab5bdc"
 os = "windows"
 
     [[LibModbus.download]]
-    sha256 = "ce9f06c1a449d29fb3a323d5f30efb4155425eab184b1e1d7370659292688ffe"
-    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v0.1.0+1/LibModbus.v0.1.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "b9b5c7c30d5a5e930be8eeef4ce3e46053ba02bbad73fe91a83c39decc94b171"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.i686-w64-mingw32.tar.gz"
+[[LibModbus]]
+arch = "powerpc64le"
+git-tree-sha1 = "f507633edd5bdbc789e58f971cbd7c0b6d89b954"
+libc = "glibc"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "7c179d0fd077001465baa44f060251907ef9fc28b55ad70304be63d796ca5abb"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.powerpc64le-linux-gnu.tar.gz"
+[[LibModbus]]
+arch = "x86_64"
+git-tree-sha1 = "bcc6514c79e12b04f1ccf83632ce385169383c95"
+os = "macos"
+
+    [[LibModbus.download]]
+    sha256 = "f49ff28607a337f60e777784837d400236be61461352d1794332c7ec83749bbb"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.x86_64-apple-darwin.tar.gz"
+[[LibModbus]]
+arch = "x86_64"
+git-tree-sha1 = "0f4be3e852a726a8428ceecbb0caae7f19bc5e95"
+libc = "glibc"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "1ce7e73f7b192fd31ab478eae2a6019319aefe776e9426ca0549066bc5fa2b0d"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.x86_64-linux-gnu.tar.gz"
+[[LibModbus]]
+arch = "x86_64"
+git-tree-sha1 = "2b3e911a76f0536feeabadd31c8ae2a91eec568f"
+libc = "musl"
+os = "linux"
+
+    [[LibModbus.download]]
+    sha256 = "04999ba0727ad7d8a388f31d4e8aa17df0014b625728b233463327010af7315c"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.x86_64-linux-musl.tar.gz"
+[[LibModbus]]
+arch = "x86_64"
+git-tree-sha1 = "83465bda53034f0924db1a4c837e49a53b584e30"
+os = "freebsd"
+
+    [[LibModbus.download]]
+    sha256 = "26ef165d8a214db53ed6f376557f77b97cd75e0ff0eaa909a7928808f2943dfb"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.x86_64-unknown-freebsd.tar.gz"
+[[LibModbus]]
+arch = "x86_64"
+git-tree-sha1 = "80196b3c828683cf771ba4c96c56344240e48001"
+os = "windows"
+
+    [[LibModbus.download]]
+    sha256 = "8e4a218af7a3e4baa1abb4bfdd7fadbe2c04b2b3da147c11b9918d515d3565f8"
+    url = "https://github.com/JuliaBinaryWrappers/LibModbus_jll.jl/releases/download/LibModbus-v3.1.10+0/LibModbus.v3.1.10.x86_64-w64-mingw32.tar.gz"
